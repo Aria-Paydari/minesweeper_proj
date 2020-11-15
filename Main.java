@@ -8,7 +8,7 @@ public class Main implements Runnable {
 	
 	GameClass game = new GameClass();
 	//starts thread
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
 		(new Thread(new Main())).start();
 	}
 
