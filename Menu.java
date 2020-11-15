@@ -42,7 +42,7 @@ import java.util.*;
 			hard=new JButton("Hard");
 			insane=new JButton("Insane");
 			name=new JTextField();
-			rules=new JLabel("<html>  Welcome to the minesweeper game,<br><br>  The game contains a window that is filled with small squares containing either a mine or a number underneath it.<br>  The difficulty of the game ranges from easy to hard.<br><br>  The rules : <br><br>  1. The first step is the hardest. Clicking on a random place(s) and hoping you’re not blown to bits.<br><br>  2. If you click on a non-bomb area, the square will either open up to be blank, or will contain a number from 1 to 8.<br><br>  3. These numbers specify the number of bombs that are adjacent to that block. 1 means there is only 1 bomb adjacent to it, while 8 would mean all blocks adjacent to it are bombs.<br><br>  4. Next, you need to do a bit of calculations. You need to find out which block will contain the bomb(s). These calculations are to be performed based on multiple blocks that are either clear or contain other numbers.<br><br>  5. Most Minesweeper games have the functionality to mark where bombs are with a flag, so you can remember easily.<br><br>  choose your difficulty and play on.<br><br>PRESS THE FLAG ICON TO MARK THE FLAGS AND WHEN YOU LOSE PRESS ON THE SAD FACE TO PLAY AGAIN</html>");
+			rules=new JLabel("<html>  Welcome to the minesweeper game,<br><br>  The game contains a window that is filled with small squares containing either a mine or a number underneath it.<br>  The difficulty of the game ranges from easy to hard.<br><br>  The rules : <br><br>  1. The first step is the hardest. Clicking on a random place(s) and hoping youâ€™re not blown to bits.<br><br>  2. If you click on a non-bomb area, the square will either open up to be blank, or will contain a number from 1 to 8.<br><br>  3. These numbers specify the number of bombs that are adjacent to that block. 1 means there is only 1 bomb adjacent to it, while 8 would mean all blocks adjacent to it are bombs.<br><br>  4. Next, you need to do a bit of calculations. You need to find out which block will contain the bomb(s). These calculations are to be performed based on multiple blocks that are either clear or contain other numbers.<br><br>  5. Most Minesweeper games have the functionality to mark where bombs are with a flag, so you can remember easily.<br><br>  choose your difficulty and play on.<br><br>PRESS THE FLAG ICON TO MARK THE FLAGS AND WHEN YOU LOSE PRESS ON THE SAD FACE TO PLAY AGAIN</html>");
 			enterName = new JLabel("Enter name here :");
 			rules.setBounds(0, 50, 500, 460);
 			enterName.setBounds(0, 0, 130, 25);
@@ -158,7 +158,6 @@ import java.util.*;
 			PrintWriter output=new PrintWriter(writer);
 
 			output.println("\n"+playerName);
-			System.out.println("Kir");
 			output.print(time);
 			output.close();
 		}
