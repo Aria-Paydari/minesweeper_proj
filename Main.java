@@ -1,10 +1,8 @@
 /*
- * ICS4U final project - minesweeper game
- * Aria Paydari Alamdari and Behrad Haghighi
+ * minesweeper game
+ * Aria Paydari Alamdari 
  * January 2020
- * Mr. Benum's class
  * Main.java 
- * 
  */
 public class Main implements Runnable {
 	
